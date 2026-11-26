@@ -82,7 +82,7 @@ $include_ajax = true;
 <body>
     <nav class="navbar navbar-dark bg-dark">
         <div class="container">
-            <a class="navbar-brand" href="books.php">📚 Books Collection</a>
+            <a class="navbar-brand" href="books.php"> Collection of books</a>
             <div class="navbar-nav ms-auto">
                 <?php if (isset($_SESSION['loggedin'])): ?>
                     <span class="navbar-text me-3">Welcome, <?= htmlspecialchars($_SESSION['username']) ?></span>
@@ -98,7 +98,7 @@ $include_ajax = true;
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-8">
-                    <h1 class="display-4 fw-bold">📚 My Books Collection</h1>
+                    <h1 class="display-4 fw-bold"> Collection of books</h1>
                     <p class="lead">Discover and manage your favorite books</p>
                 </div>
                 <div class="col-lg-4 text-lg-end">
